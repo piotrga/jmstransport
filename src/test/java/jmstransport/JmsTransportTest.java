@@ -15,8 +15,7 @@ import static org.mockito.Mockito.verify;
 @SuppressWarnings({"FieldCanBeLocal", "ThrowableResultOfMethodCallIgnored"})
 public class JmsTransportTest {
 
-	@Mock
-    Receiver receiver;
+	@Mock Receiver receiver;
 	@Mock JmsErrorListener jmsErrorListener;
 	@Mock ConnectionFactory connectionFactory;
 
